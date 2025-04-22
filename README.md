@@ -1,6 +1,6 @@
-PawsomeCity: Creating Pet-Friendly Urban Spaces
+#PawsomeCity: Creating Pet-Friendly Urban Spaces
 
-(PawsomeCity)[https://pawsomecity.netlify.app]
+[https://pawsomecity.netlify.app](PawsomeCity)
 
 PawsomeCity is a dynamic platform dedicated to making cities more welcoming for pets and their owners. It combines playful design with practical tools to engage communities, promote pet-friendly initiatives, and connect volunteers.
 

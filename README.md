@@ -1,6 +1,6 @@
 # PawsomeCity: Creating Pet-Friendly Urban Spaces
 
-Website:- [PawsomeCity]([PawsomeCity](https://pawsomecity.netlify.app))
+Website:- [PawsomeCity](https://pawsomecity.netlify.app)
 
 ![Screenshot 2025-04-23 034859](https://github.com/user-attachments/assets/7ed2425f-afee-4454-90ae-95761d2c16fb)
 

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawsomeCity - Making Cities Paw-some!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <b href="#home"><span>PawsomeCity</span>
+                <span class="paw">🐾</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i><span>About</span></a></li>
+                <li><a href="#services"><i class="fas fa-paw"></i><span>Services</span></a></li>
+                <li><a href="#volunteer"><i class="fas fa-hands-helping"></i><span>Volunteer</span></a></li>
+                <li><a href="#stories"><i class="fas fa-comment-dots"></i><span>Stories</span></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="mobile-overlay"></div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="custom-curve">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" 
+                          opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" 
+                          opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" 
+                          class="shape-fill"></path>
+                </svg>
+            </div>
+            <h1>Making Cities <span class="highlight">Paw-some!</span> 🐾✨</h1>
+            <p>Join the movement to create pet-friendly spaces in our city where every tail wags with joy!</p>
+            <div class="cta-buttons">
+                <a href="#volunteer" class="btn primary">Join the Movement</a>
+                <a href="#services" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-dogs">
+                <img src="images/CatsDogs.png" alt="Happy dog" class="floating dog1">
+                <img src="images/DogsCats.png" alt="Playful cat" class="floating cat1">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-title">
+            <h2>Welcome to <span>PawsomeCity</span></h2>
+            <p>Your Trusted Partner in Pet Care</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Dedicated to the Well-Being of Your Beloved Pets</h3>
+                <p>We treat every pet as family. With personalized care and quality services, we create happy experiences for both pets and their humans. Our team is honored to provide kind, professional care and expert advice.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number" data-count="1000">0</span>+
+                        <span class="label">Happy Pets</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number" data-count="50">0</span>+
+                        <span class="label">Volunteers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number" data-count="5">0</span>+
+                        <span class="label">Pet-Friendly Parks</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/Pets.jpg" alt="Woman with dog">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>Our <span>Services</span></h2>
+            <p>Tailored care for your furry friends</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🐕</div>
+                <h3>Dog Walking</h3>
+                <p>Our tailored vacation walks provide exercise and adventure for your pup while you're busy.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3>Pet Sitting</h3>
+                <p>We keep your pets comfortable in their own environment when you can't be there.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎓</div>
+                <h3>Pet Training</h3>
+                <p>Improve your pet's behavior and socialization with our positive reinforcement methods.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="volunteer" id="volunteer">
+        <div class="section-title">
+            <h2>Ready to <span>Volunteer?</span></h2>
+            <p>Join our pet-friendly city campaign!</p>
+        </div>
+        <div class="volunteer-form">
+            <form id="signupForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="city" name="city" placeholder="Your City" required>
+                </div>
+                <div class="form-group">
+                    <select id="role" name="role" required>
+                        <option value="" disabled selected>Select Preferred Role</option>
+                        <option value="walker">Dog Walker</option>
+                        <option value="sitter">Pet Sitter</option>
+                        <option value="event">Event Volunteer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn primary">Join Now!</button>
+            </form>
+            <div class="form-image">
+                <img src="images/Volunteer.webp" alt="Volunteer with pets">
+            </div>
+        </div>
+    </section>
+
+    <section class="stories" id="stories">
+        <div class="section-title">
+            <h2>Impact <span>Stories</span></h2>
+            <p>Real stories from our PawsomeCity families</p>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="story-card">
+                            <div class="quote">"</div>
+                            <p>Thanks to PawsomeCity, my rescue dog Max went from scared to social in just a few weeks of training. The transformation is amazing!</p>
+                            <div class="author">
+                                <img src="images/Max.png" alt="Max the dog">
+                                <span>- Sarah & Max</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="story-card">
+                            <div class="quote">"</div>
+                            <p>The volunteer dog walkers are lifesavers! They give my energetic Labrador the exercise he needs when I'm at work.</p>
+                            <div class="author">
+                                <img src="images/Buddy.png" alt="Buddy the Labrador">
+                                <span>- Michael & Buddy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="story-card">
+                            <div class="quote">"</div>
+                            <p>Our neighborhood park became so much more pet-friendly after PawsomeCity campaigned for better facilities. Thank you!</p>
+                            <div class="author">
+                                <img src="images/Family.png" alt="Happy pets">
+                                <span>- The Thompson Family</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control prev">❮</button>
+            <button class="carousel-control next">❯</button>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="section-title">
+            <h2>Our <span>Partners</span></h2>
+        </div>
+        <div class="partner-logos">
+            <div class="partner-item">
+                <img src="images/PFC.png" alt="PetFriendlyCity" data-description="PetFriendlyCity helps create pet-friendly spaces in urban areas">
+                <div class="partner-description">PetFriendlyCity was started to create safe and welcoming environments for pets and their owners in every city in India</div>
+            </div>
+            <div class="partner-item">
+                <img src="images/CT.png" alt="CollegeTips" data-description="CollegeTips provides educational resources for pet owners">
+                <div class="partner-description">CollegeTips started taking the initiative " PetFriendlyCity " to provide helpful tips and resources for college students who can help make this posssible</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Contact <span>Us</span></h2>
+            <p>Ready to give your pet the best care? Reach out today!</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Somewhere under the Blue Sky</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 1234567890</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>chat@pawsome.org</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/petfriendlycity/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.link/vnmuuq"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>PawsomeCity</span>
+                <span class="paw">🐾</span>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+                    <li><a href="#services"><i class="fas fa-paw"></i>Services</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#volunteer"><i class="fas fa-hands-helping"></i><span>Volunteer</span></a></li>
+                    <li><a href="#stories"><i class="fas fa-comment-dots"></i>Stories</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PawsomeCity. All rights reserved. Making cities paw-some one tail at a time!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <div id="fireworks-container" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:1000;"></div>
+
+<!-- Dancing Cat GIF -->
+<div id="dancing-cat" style="display:none; position:fixed; bottom:20px; right:20px; z-index:1001;">
+    <img src="images/cat.gif" alt="Dancing Cat" style="width:200px;">
+</div>
+</body>
+
+</html>

@@ -2,11 +2,11 @@
 
 Website:- [PawsomeCity](https://pawsomecity.netlify.app)
 
-![Screenshot 2025-04-23 034859](https://github.com/user-attachments/assets/7ed2425f-afee-4454-90ae-95761d2c16fb)
+<img src="./read/home.png" width = 60%>
 
 PawsomeCity is a dynamic platform dedicated to making cities more welcoming for pets and their owners. It combines playful design with practical tools to engage communities, promote pet-friendly initiatives, and connect volunteers.
 
-![Screenshot 2025-04-23 035031](https://github.com/user-attachments/assets/bbcd4f16-f742-4869-943f-9e224f3d0df6)
+<img src="./read/welcome.png" width = 60%>
 
 ## Key Features:
 
@@ -15,6 +15,10 @@ Animated floating pets and clear CTAs draw users in, setting a joyful tone.
 
 ### Volunteer Sign-Up Form:-
 Easy registration for roles like dog walking or event volunteering, with a fun celebration animation upon submission.
+
+
+https://github.com/user-attachments/assets/e46434f3-ceb4-451d-afd2-f4c7ee7c920e
+
 
 ### Impact Stories Carousel:-
 Real testimonials highlight success stories, building trust and community spirit.
